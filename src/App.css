@@ -1,0 +1,72 @@
+/* App-level styles - minimal, section uses component CSS */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app main {
+  flex: 1;
+}
+
+/* === Scroll Reveal Animation System === */
+
+/* Base hidden state */
+.sr {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sr--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Directional variants */
+.sr-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sr-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sr-left.sr--visible,
+.sr-right.sr--visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Scale variant */
+.sr-scale {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sr-scale.sr--visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Staggered children */
+.sr-child {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sr-stagger--visible .sr-child {
+  opacity: 1;
+  transform: translateY(0);
+}

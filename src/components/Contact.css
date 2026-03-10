@@ -1,0 +1,126 @@
+.contact {
+    background: var(--color-bg);
+}
+
+.contact__header {
+    text-align: center;
+    margin-bottom: var(--space-3xl);
+}
+
+.contact__header .section-label {
+    justify-content: center;
+}
+
+.contact__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-2xl);
+    align-items: start;
+}
+
+.contact__info-card {
+    background: var(--color-white);
+    border-radius: var(--radius-xl);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--color-border-light);
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    margin-bottom: var(--space-xl);
+}
+
+.contact__info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-lg);
+}
+
+.contact__info-icon {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    background: rgba(77, 184, 164, 0.1);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__info-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 0.3rem;
+}
+
+.contact__info-text {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    line-height: 1.7;
+}
+
+.contact__info-text--small {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    margin-top: 0.2rem;
+}
+
+.contact__info-text--highlight {
+    font-weight: 600;
+    color: var(--color-accent-dark);
+}
+
+.contact__phone {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    display: block;
+    transition: color var(--transition-fast);
+}
+
+.contact__phone:hover {
+    color: var(--color-accent);
+}
+
+.contact__call-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: var(--space-md);
+}
+
+.contact__dir-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.contact__map {
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    min-height: 450px;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--color-border-light);
+}
+
+.contact__map iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+}
+
+@media (max-width: 968px) {
+    .contact__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact__map,
+    .contact__map iframe {
+        min-height: 350px;
+    }
+}
