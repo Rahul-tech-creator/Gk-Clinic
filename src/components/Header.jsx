@@ -57,7 +57,7 @@ function Header() {
                             <div className="header__logo-icon">
                                 <span>GK</span>
                             </div>
-                            <div>
+                            <div className="header__logo-text">
                                 <span className="header__logo-name">GK Clinic</span>
                                 <span className="header__logo-sub">Dr. Gowtham Krishna</span>
                             </div>
