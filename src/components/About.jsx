@@ -77,8 +77,8 @@ function About() {
                         </a>
 
                         <div className="about__images">
-                            <img src="/src/assets/img1.png" alt="Waiting Area" className="about__img about__img--1" />
-                            <img src="/src/assets/img2.png" alt="Patient Beds" className="about__img about__img--2" />
+                            <img src="/images/img1.png" alt="Waiting Area" className="about__img about__img--1" />
+                            <img src="/images/img2.png" alt="Patient Beds" className="about__img about__img--2" />
                         </div>
                     </div>
 

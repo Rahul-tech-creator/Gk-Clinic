@@ -60,8 +60,8 @@ function Hero() {
 
                 <div className="hero__visual">
                     <div className="hero__visual-images">
-                        <img src="/src/assets/hero_new1.jpg" alt="Dr. Gowtham Krishna with a family" className="hero__img hero__img--top" />
-                        <img src="/src/assets/hero_new2.jpg" alt="Doctor providing affordable care to elderly patient" className="hero__img hero__img--bottom" />
+                        <img src="/images/hero_new1.jpg" alt="Dr. Gowtham Krishna with a family" className="hero__img hero__img--top" />
+                        <img src="/images/hero_new2.jpg" alt="Doctor providing affordable care to elderly patient" className="hero__img hero__img--bottom" />
                     </div>
                 </div>
             </div>
