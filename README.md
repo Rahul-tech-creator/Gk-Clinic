@@ -1,16 +1,167 @@
-# React + Vite
+🏥 GK Clinic Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive clinic website built with React + Vite, designed for seamless patient interaction and quick appointment booking.
 
-Currently, two official plugins are available:
+This website allows patients to learn about the clinic, read reviews, locate the clinic, and book appointments instantly via WhatsApp or phone.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Live Website:
+https://gkclinic.vercel.app
 
-## React Compiler
+✨ Features
+🏠 Home Page
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Modern hero section
 
-## Expanding the ESLint configuration
+Trust indicators (ratings & patient count)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Quick appointment CTA
+
+WhatsApp chat integration
+
+👨‍⚕️ About
+
+Doctor profile and clinic information
+
+Patient care philosophy
+
+Highlighted service values
+
+🩺 Services
+
+Overview of medical services provided
+
+Clean and easy-to-read layout
+
+⭐ Reviews
+
+Displays patient feedback
+
+Builds credibility and trust
+
+📅 Appointment Booking
+
+Patient form including:
+
+Full Name
+
+Phone Number
+
+Preferred Date
+
+Preferred Time
+
+Symptoms / Reason for Visit
+
+Sends appointment request directly via WhatsApp
+
+📍 Contact Page
+
+Full clinic address
+
+Click-to-call phone integration
+
+Google Maps location embed
+
+Clinic timings
+
+📱 Communication Integrations
+
+WhatsApp chat button
+
+Click-to-call functionality
+
+WhatsApp appointment booking
+
+🌐 Deployment
+
+Deployed using Vercel
+
+Fast global CDN delivery
+
+🛠 Tech Stack
+Technology	Purpose
+React	UI Development
+Vite	Lightning fast development environment
+CSS / Tailwind / Custom Styling	UI Styling
+Google Maps Embed	Location integration
+WhatsApp API	Appointment booking
+Vercel	Hosting and deployment
+
+⚙️ Installation
+
+Clone the repository
+
+git clone https://github.com/your-username/gk-clinic.git
+
+Navigate into the project
+
+cd gk-clinic
+
+Install dependencies
+
+npm install
+
+Start development server
+
+npm run dev
+🚀 Build for Production
+npm run build
+
+Preview production build
+
+npm run preview
+🌍 Deployment
+
+This project is deployed using Vercel.
+
+Steps to deploy:
+
+Push project to GitHub
+
+Login to Vercel
+
+Import GitHub repository
+
+Deploy automatically
+
+Every push to the main branch triggers a new deployment.
+
+📞 Clinic Information
+
+GK Clinic
+Dr. Gowtham Krishna
+
+📍 Gym Khana Grounds
+26-14-17 Annapurna Devi Street
+Opp. Ward Sachivalayam
+Gandhi Nagar, Vijayawada
+Andhra Pradesh 520003
+
+📞 Phone: 099488 93889
+
+⏰ Open Daily
+Closes at 9:00 PM
+
+📈 Future Improvements
+
+Possible upgrades:
+
+Online appointment database
+
+Admin dashboard
+
+Automated WhatsApp confirmations
+
+SEO optimization
+
+Analytics integration
+
+Patient management system
+
+👨‍💻 Author
+
+Developed by Rahul
+
+📜 License
+
+This project is open-source and available under the MIT License.
