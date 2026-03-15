@@ -1,3 +1,18 @@
+## 📸 Website Preview
+
+### Home Page
+<img src="./public/images/home-page.png" width="900"/>
+
+### Booking Page
+<img src="./public/images/booking.png" width="900"/>
+
+### Directions
+<img src="./public/images/directions.png" width="900"/>
+
+
+
+
+
 🏥 GK Clinic Website
 
 A modern, responsive clinic website built with React + Vite, designed for seamless patient interaction and quick appointment booking.
